@@ -3,6 +3,13 @@
   A repository containing small examples to illustrate the use of Koa
   for creating web applications and other HTTP servers.
 
+  In general, these example programs can all be invoked by entering:
+
+  ```
+  node --harmony app.js  -or-
+  node --harmony index.js
+  ```
+
 ## Included Examples
 
  - [404](404) - 404 handling
@@ -12,7 +19,7 @@
  - [compose](compose) - compose middlewares example
  - [conditional-middleware](conditional-middleware) - shows how middleware may be conditionally applied
  - [cookies](cookies) - cookie usage example
- - [csrf](csrf) - middleware csrf example
+ - [csrf](csrf) - Cross Site Request Forgery middleware example
  - [errors](errors) - error handling & propagation
  - [flash-messages](flash-messages) - flash example
  - [hello-world](hello-world) - hello world application

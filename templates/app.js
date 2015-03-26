@@ -25,4 +25,6 @@ app.use(function *(){
   this.body = yield render('user', { user: user });
 });
 
-if (!module.parent) app.listen(4000);
+if (!module.parent) app.listen(3000);
+console.log('listening on port 3000');
+
