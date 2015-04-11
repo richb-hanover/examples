@@ -9,6 +9,8 @@ To invoke, the following command begins listening on localhost:3000.
 To see results:
 
     http://localhost:3000
+    
+You will see a succession of lines containing "data:" with an increasing number. This will continue as long as you keep the browser window open.
 
 ## Interesting points
 
